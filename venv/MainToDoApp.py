@@ -5,6 +5,7 @@ import time
 import main_app_functions
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
+print('the time is showm below')
 print("it is", now)
 
 while True:
