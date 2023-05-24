@@ -1,7 +1,6 @@
 # from main_app_functions import get_todos, write_todos]
 # from folder . import file (if its in another folder)
 import time
-
 import main_app_functions
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
