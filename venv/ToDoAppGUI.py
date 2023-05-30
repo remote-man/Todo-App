@@ -7,12 +7,11 @@ sg.theme("DarkTeal11")
 clock = sg.Text('', key='clock')
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter a to-do", key="todo")
-import PySimpleGUI as sg
-add_button = sg.Button("Add")
+add_button = sg.Button(size=10, image_source="add.png", mouseover_colors="LightBlue2", tooltip="Add a ToDo", key="Add")
 list_box = sg.Listbox(values=main_app_functions.get_todos(), key='todos',
                       enable_events=True, size=[45, 10])
 edit_button = sg.Button("Edit")
-complete_button = sg.Button("Complete")
+complete_button = sg.Button(size=10, image_source="complete.png", mouseover_colors="LightBlue2", tooltip="Complete a ToDo", key="Complete")
 exit_button = sg.Button("Exit")
 
 
